@@ -1,1 +1,58 @@
 Projet 10 : Etude approfondie sur le Quantum communications
+
+
+
+
+
+
+1. L'Intégration dans les Réseaux du Futur (6G et 7G)
+
+Le passage des réseaux classiques aux réseaux quantiques se fera par étapes successives d'hybridation.
+
+    Réseaux 6G : Ils seront caractérisés par l'utilisation massive de l'intelligence artificielle (IA) et de l'apprentissage automatique (ML) pour optimiser les performances.
+
+    Réseaux 7G : Ils marqueront une rupture technologique en intégrant des systèmes hybrides combinant l'informatique classique et l'informatique quantique (QC).
+
+    Enjeu : L'objectif est de répondre aux besoins croissants en débit et en sécurité que les technologies classiques ne pourront plus satisfaire seules.
+
+2. Protocoles et Applications de Base
+
+La communication quantique ne transmet pas seulement des données, elle utilise des propriétés physiques uniques pour transformer la manière dont l'information circule.
+
+    Intrication (Entanglement) : C'est le lien invisible entre deux qubits. Modifier l'état de l'un influence instantanément l'autre, quelle que soit la distance.
+
+    Téléportation Quantique : Ce n'est pas le transfert de matière, mais le transfert de l'état quantique d'un qubit vers un autre à l'aide de l'intrication et d'un canal de communication classique.
+
+    Codage Superdense : Ce protocole permet d'envoyer deux bits classiques d'information en ne transmettant physiquement qu'un seul qubit, doublant ainsi l'efficacité de la bande passante.
+
+    QKD (Quantum Key Distribution) : Il s'agit de la génération d'une clé secrète entre deux parties. Sa sécurité est absolue car toute tentative d'interception (mesure) modifie l'état des qubits, alertant immédiatement les utilisateurs.
+
+3. Infrastructures : Les Répéteurs Quantiques
+
+Contrairement aux signaux électriques ou optiques classiques, un état quantique ne peut pas être amplifié (à cause du théorème de non-clonage).
+
+    Problème de distance : Les signaux quantiques s'atténuent dans les fibres optiques après quelques dizaines de kilomètres.
+
+    Solution : On utilise des répéteurs quantiques. Ils utilisent l'échange d'intrication (Entanglement Swapping) pour créer un lien quantique entre deux points distants sans que le signal ait besoin de parcourir toute la distance d'un trait.
+
+    Rôle : Ils sont indispensables pour bâtir un futur "Internet Quantique" à l'échelle mondiale.
+
+4. Sécurité : L'Attaque de l'Homme du Milieu (MitM)
+
+La communication quantique redéfinit la menace cyber en introduisant de nouveaux vecteurs d'attaque, mais aussi des parades.
+
+    Modélisation de l'attaque : Dans un scénario MitM, une entité malveillante (Eve) tente d'intercepter le qubit envoyé par l'émetteur (Alice) au récepteur (Bob).
+
+    Conséquence physique : En raison du principe de mesure quantique, si Eve "lit" le qubit pour voler l'information, elle provoque l'effondrement de son état. Bob recevra un signal perturbé, ce qui permet de détecter la présence de l'espion.
+
+    Protection : Pour contrer les ordinateurs quantiques capables de briser le RSA (via l'algorithme de Shor), on développe la cryptographie post-quantique, notamment les familles basées sur les réseaux (Lattice-based).
+
+5. Outils de Simulation et Développement
+
+Il est déjà possible de programmer et simuler ces réseaux sans posséder un ordinateur quantique physique coûteux.
+
+    Frameworks Cloud : Des plateformes comme IBM Quantum, Amazon Braket et Xanadu permettent d'accéder à des processeurs quantiques réels ou des simulateurs performants.
+
+    Langages : On utilise principalement le langage OpenQASM pour décrire les circuits quantiques (portes logiques comme la porte de Hadamard 'H' pour créer la superposition).
+
+    Simulateurs spécialisés : Pour la couche réseau, des outils comme Squanch (souvent utilisé avec Jupyter Notebook) permettent de simuler spécifiquement le trafic et les protocoles de communication quantique.
